@@ -6,7 +6,7 @@ import java.util.List;
 
 public class GerenciadorTarefas {
     private List<Tarefa> listaDeTarefas;
-
+   //os meninos de lauro//
     public GerenciadorTarefas() {
         this.listaDeTarefas = new ArrayList<>();
     }
@@ -23,7 +23,7 @@ public class GerenciadorTarefas {
             return;
         }
 
-        System.out.println("--- Lista de Tarefas ---");
+        System.out.println("Lista de Tarefas ");
         for (int i = 0; i < listaDeTarefas.size(); i++) {
             System.out.println(i + ". " + listaDeTarefas.get(i));
         }
