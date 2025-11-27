@@ -1,8 +1,8 @@
 //atualiazacao de teste
 
-package com.aprendizado;
+package com.ListaGerenciadora;
 
-import com.aprendizado.service.GerenciadorTarefas;
+import com.ListaGerenciadora.service.GerenciadorTarefas;
 import java.util.Scanner;
 
 public class Main {
@@ -19,7 +19,7 @@ public class Main {
             System.out.println("3. Concluir Tarefa");
             System.out.println("4. Sair");
             System.out.print("Escolha: ");
-            
+
             if (scanner.hasNextInt()) {
                 opcao = scanner.nextInt();
                 scanner.nextLine();

@@ -1,6 +1,6 @@
-package com.aprendizado.service;
+package com.ListaGerenciadora.service;
 
-import com.aprendizado.model.Tarefa;
+import com.ListaGerenciadora.model.Tarefa;
 import java.util.ArrayList;
 import java.util.List;
 

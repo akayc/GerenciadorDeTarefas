@@ -1,6 +1,6 @@
 //Ultimo teste
 
-package com.aprendizado.model;
+package com.ListaGerenciadora.model;
 
 public class Tarefa {
     private String descricao;
